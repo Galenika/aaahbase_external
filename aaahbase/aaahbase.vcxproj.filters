@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Main">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{94179557-8098-4461-b4b8-6834b7d19634}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImGui">
+      <UniqueIdentifier>{af7b2470-e621-4573-ac2c-6f88660178bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils\Variables">
+      <UniqueIdentifier>{85c8d0b6-db29-4b8a-a177-cf80eb9ac7cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Memory">
+      <UniqueIdentifier>{81bc1562-2151-49d1-a144-73339fcafa34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\GUI">
+      <UniqueIdentifier>{b9171ef2-8532-44f8-8b34-94b493bef117}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils\Others">
+      <UniqueIdentifier>{69c27ac2-26b5-4fea-9d30-0d26c73dd658}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features">
+      <UniqueIdentifier>{effaf824-5655-451b-8b6a-e875603913d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features\Misc">
+      <UniqueIdentifier>{7eab2dc2-6864-41d8-90f7-739f7e30e8f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features\SDK">
+      <UniqueIdentifier>{97f94100-c8f6-4007-9912-6e7f27ec975e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features\Visuals">
+      <UniqueIdentifier>{821af131-dc42-4981-a70c-b70b51b2914a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Entry.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_draw.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_impl_dx9.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Variables.cpp">
+      <Filter>Utils\Variables</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoryManager.cpp">
+      <Filter>Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI.cpp">
+      <Filter>Main\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Misc.cpp">
+      <Filter>Features\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="Visuals.cpp">
+      <Filter>Features\Visuals</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Features\SDK</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="imgui.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_impl_dx9.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_internal.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_rect_pack.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_textedit.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_truetype.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imconfig.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Variables.h">
+      <Filter>Utils\Variables</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryManager.h">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI.h">
+      <Filter>Main\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Offsets.hpp">
+      <Filter>Utils\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="WndProc.h">
+      <Filter>Utils\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="Misc.h">
+      <Filter>Features</Filter>
+    </ClInclude>
+    <ClInclude Include="IniParser.h">
+      <Filter>Utils\Others</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Entity.h">
+      <Filter>Features\SDK</Filter>
+    </None>
+  </ItemGroup>
+</Project>
